@@ -90,13 +90,14 @@ class Bike(Vehicle):
         print(f"Engine Capacity: {self.cc}cc")
 
 
-# Objects
+
 car1 = Car("Toyota", "Corolla", 2024)
 bike1 = Bike("Honda", "CBR", 600)
 
-# Display info
+
 print("Car Details:")
 car1.show_info()
 
 print("\nBike Details:")
 bike1.show_info()
+
